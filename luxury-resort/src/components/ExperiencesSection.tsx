@@ -9,7 +9,7 @@ export function ExperiencesSection() {
       name: "Beachfront Access",
       description: "Direct access to pristine Umkomaas Beach just metres from your room",
       // image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-      image: "./src/assets/images/439009931.jpg",
+      image: "./src/assets/images/IMG-20250807-WA0009.jpg",
       icon: Waves
     },
     {
@@ -17,7 +17,7 @@ export function ExperiencesSection() {
       name: "Swimming Pools", 
       description: "Year-round outdoor swimming pool plus dedicated kids' pool for family fun",
       // image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-            image: "./src/assets/images/435398486.jpg",
+            image: "./src/assets/images/IMG-20250807-WA0013.jpg",
 
       icon: Waves
     },
@@ -25,16 +25,16 @@ export function ExperiencesSection() {
       id: 3,
       name: "Restaurant & Bar",
       description: "Family-friendly restaurant serving lunch and dinner with full bar service",
-      // image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-                  image: "./src/assets/images/436739232.jpg",
+      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
 icon: Utensils
     },
     {
       id: 4,
       name: "Wellness & Comfort",
       description: "Relax in air-conditioned comfort with premium amenities and attentive service",
-      image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-      
+      // image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                  image: "./src/assets/images/IMG-20250807-WA0019.jpg",
+
       icon: Heart
     },
     {

@@ -14,7 +14,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-xl mb-4 font-bold" style={{ 
-            fontFamily: 'Crimson Text, serif',}}>Luxury Resort</h3>
+            fontFamily: 'Crimson Text, serif',}}>Coastal Beach Resort</h3>
             <p className="text-white/80 mb-4 leading-relaxed" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
               Your beachfront getaway in beautiful Amanzimtoti. Experience direct beach access, 
@@ -99,7 +99,7 @@ export function Footer() {
         <Separator className="my-8 bg-black-foreground/20" />
 
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-white/80">
-          <p>&copy; 2024 Luxury Resort, Amanzimtoti. All rights reserved.</p>
+          <p>&copy; 2024 Coastal Beach Resort, Amanzimtoti. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Privacy Policy</a>

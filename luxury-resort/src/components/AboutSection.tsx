@@ -8,10 +8,10 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl mb-6" style={{ 
-              fontFamily: 'Playfair Display, serif',}}>About Luxury Resort</h2>
+              fontFamily: 'Playfair Display, serif',}}>About Coastal Beach Resort</h2>
             <p className="text-lg  text-gray-500 mb-6 leading-relaxed" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
-              Located on the stunning coastline of Amanzimtoti, South Africa, Luxury Resort offers 
+              Located on the stunning coastline of Amanzimtoti, South Africa, Coastal Beach Resort offers 
               direct beachfront access with Umkomaas Beach just metres away. Our resort combines 
               coastal beauty with modern comfort, providing guests with an unforgettable beach holiday experience.
             </p>
@@ -75,7 +75,7 @@ export function AboutSection() {
           <div className="relative">
             <ImageWithFallback
               src="./src/assets/images/431141506.jpg"
-              alt="Luxury Resort beachfront location in Amanzimtoti"
+              alt="Coastal Beach Resort beachfront location in Amanzimtoti"
               className="w-full h-96 lg:h-full object-cover rounded-lg shadow-xl"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
@@ -123,4 +123,4 @@ export function AboutSection() {
       </div>
     </section>
   );
-}
+} 

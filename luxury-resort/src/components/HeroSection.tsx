@@ -27,7 +27,7 @@ export function HeroSection() {
               textShadow: '4px 4px 8px rgba(0, 0, 0, 0.9), 2px 2px 4px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5)'
             }}
           >
-            Luxury Resort
+            Coastal Beach Resort
           </h1>
           {/* Elegant underline accent */}
           <div 

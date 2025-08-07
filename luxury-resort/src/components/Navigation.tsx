@@ -51,7 +51,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-medium">Luxury Resort</h1>
+            <h1 className="text-xl font-medium">Coastal Beach Resort</h1>
           </div>
 
           {/* Desktop Navigation */}
