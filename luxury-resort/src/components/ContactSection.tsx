@@ -21,7 +21,7 @@ export function ContactSection() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
+                  <div className="bg-gray-50 p-3 rounded-full">
                     <MapPin className="text-primary" size={20} />
                   </div>
                   <div>

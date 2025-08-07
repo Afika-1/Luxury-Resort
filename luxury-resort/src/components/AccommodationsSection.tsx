@@ -9,7 +9,7 @@ export function AccommodationsSection() {
       name: "Standard Sea View Room",
       description: "Comfortable room with air conditioning, private balcony and stunning sea views",
       // image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-      image: "./src/assets/images/436738801.jpg",
+      image: "./src/assets/images/435398940.jpg",
       price: "From R850/night",
       features: ["Sea View", "Private Balcony", "Air Conditioning", "Free WiFi"]
     },

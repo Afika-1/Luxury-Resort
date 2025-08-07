@@ -8,7 +8,9 @@ export function DiningSection() {
       id: 1,
       name: "Main Restaurant",
       description: "Family-friendly restaurant serving fresh local cuisine with stunning sea views",
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      // image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+            image: "./src/assets/images/436739235.jpg",
+
       hours: "Lunch: 12:00 - 15:00 | Dinner: 18:00 - 22:00",
       specialties: ["Fresh Seafood", "Local Cuisine", "Family Meals", "Sea View Dining"]
     },

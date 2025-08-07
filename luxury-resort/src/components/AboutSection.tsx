@@ -63,7 +63,7 @@ export function AboutSection() {
 
           <div className="relative">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+              src="./src/assets/images/431141506.jpg"
               alt="Luxury Resort beachfront location in Amanzimtoti"
               className="w-full h-96 lg:h-full object-cover rounded-lg shadow-xl"
             />

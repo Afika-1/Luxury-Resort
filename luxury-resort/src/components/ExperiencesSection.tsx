@@ -8,42 +8,49 @@ export function ExperiencesSection() {
       id: 1,
       name: "Beachfront Access",
       description: "Direct access to pristine Umkomaas Beach just metres from your room",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      // image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "./src/assets/images/439009931.jpg",
       icon: Waves
     },
     {
       id: 2,
       name: "Swimming Pools", 
       description: "Year-round outdoor swimming pool plus dedicated kids' pool for family fun",
-      image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      // image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+            image: "./src/assets/images/435398486.jpg",
+
       icon: Waves
     },
     {
       id: 3,
       name: "Restaurant & Bar",
       description: "Family-friendly restaurant serving lunch and dinner with full bar service",
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
-      icon: Utensils
+      // image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+                  image: "./src/assets/images/436739232.jpg",
+icon: Utensils
     },
     {
       id: 4,
       name: "Wellness & Comfort",
       description: "Relax in air-conditioned comfort with premium amenities and attentive service",
       image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      
       icon: Heart
     },
     {
       id: 5,
       name: "Free Parking",
       description: "Complimentary on-site private parking available for all guests",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      // image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "./src/assets/images/parking.jpg",
       icon: Car
     },
     {
       id: 6,
       name: "Free WiFi",
       description: "High-speed complimentary WiFi throughout the property (rated 9.2/10)",
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      // image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "./src/assets/images/wifi 2.jpg",
       icon: Wifi
     }
   ];
