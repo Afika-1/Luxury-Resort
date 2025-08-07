@@ -7,7 +7,8 @@ export function AboutSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl md:text-5xl mb-6">About Luxury Resort</h2>
+            <h2 className="text-4xl md:text-5xl mb-6" style={{ 
+              fontFamily: 'Playfair Display, serif',}}>About Luxury Resort</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
               Located on the stunning coastline of Amanzimtoti, South Africa, Luxury Resort offers 
