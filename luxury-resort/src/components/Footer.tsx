@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl mb-4" style={{ 
+            <h3 className="text-xl mb-4 font-bold" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Luxury Resort</h3>
             <p className="text-white/80 mb-4 leading-relaxed" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
@@ -38,7 +38,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="mb-4">Quick Links</h4>
+            <h4 className="mb-4 font-bold">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#accommodations" className="text-white/80 hover:text-white transition-colors" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Accommodations</a></li>
@@ -55,7 +55,7 @@ export function Footer() {
 
           {/* Services & Facilities */}
           <div>
-            <h4 className="mb-4">Facilities</h4>
+            <h4 className="mb-4 font-bold">Facilities</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-white/80 hover:text-white transition-colors" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Outdoor Swimming Pool</a></li>
@@ -72,7 +72,7 @@ export function Footer() {
 
           {/* Newsletter */}
           <div>
-            <h4 className="mb-4" style={{ 
+            <h4 className="mb-4 font-bold" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Stay Connected</h4>
             <p className="text-white/80 mb-4" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
@@ -83,8 +83,8 @@ export function Footer() {
                 placeholder="Enter your email" 
                 className="bg-black-foreground/10 border-primary-foreground/20 text-white placeholder:text-white/60"
               />
-              <Button variant="secondary" className="w-full" style={{ 
-            fontFamily: 'Crimson Text, serif',}}>
+              <Button variant="secondary" className="w-full bg-white text-black" style={{ 
+            fontFamily: 'Crimson Text, serif font-bold',}}>
                 Subscribe
               </Button>
             </div>

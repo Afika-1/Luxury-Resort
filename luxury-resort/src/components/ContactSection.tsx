@@ -10,7 +10,11 @@ export function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4" style={{ 
-              fontFamily: 'Playfair Display, serif',}}>Get in Touch</h2>
+              fontFamily: 'Playfair Display, serif',}}>Get in Touch 
+              <div 
+            className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 h-1 bg-gradient-to-r from-transparent via-black to-transparent "
+            style={{ width: '80%' }}
+          ></div></h2>
           <p className="text-xl max-w-3xl mx-auto text-muted-foreground" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
             Ready to experience the beauty of Amanzimtoti's coastline? Contact us to book your beachfront getaway.
@@ -19,17 +23,17 @@ export function ContactSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Contact Information */}
-          <div className="space-y-6">
+          <div className="space-y-6 ">
             <Card>
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gray-50 p-3 rounded-full">
+              <CardContent className="p-6 ">
+                <div className="flex items-center space-x-4 ">
+                  <div className="bg-gray-200 p-3 rounded-full ">
                     <MapPin className="text-primary" size={20} />
                   </div>
                   <div>
                     <h3 className="mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Location</h3>
-                    <p className="text-muted-foreground text-sm" style={{ 
+                    <p className="text-muted-foreground text-sm text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                       Beachfront, Amanzimtoti<br />
                       KwaZulu-Natal, South Africa
@@ -42,13 +46,13 @@ export function ContactSection() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
+                  <div className="bg-gray-200 p-3 rounded-full">
                     <Phone className="text-primary" size={20} />
                   </div>
                   <div>
                     <h3 className="mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Phone</h3>
-                    <p className="text-muted-foreground text-sm" style={{ 
+                    <p className="text-muted-foreground text-sm text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                       +27 (0)31 903 1234
                     </p>
@@ -60,13 +64,13 @@ export function ContactSection() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
+                  <div className="bg-gray-200 p-3 rounded-full">
                     <Mail className="text-primary" size={20} />
                   </div>
                   <div>
                     <h3 className="mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Email</h3>
-                    <p className="text-muted-foreground text-sm" style={{ 
+                    <p className="text-muted-foreground text-sm text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                       info@luxuryresort.co.za
                     </p>
@@ -78,13 +82,13 @@ export function ContactSection() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-full">
+                  <div className="bg-gray-200 p-3 rounded-full">
                     <Clock className="text-primary" size={20} />
                   </div>
                   <div>
                     <h3 className="mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Check-in / Check-out</h3>
-                    <p className="text-muted-foreground text-sm" style={{ 
+                    <p className="text-muted-foreground text-sm text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                       Check-in: 14:00<br />
                       Check-out: 10:00
@@ -101,8 +105,8 @@ export function ContactSection() {
                   <h4 className="mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>King Shaka International Airport</h4>
                   <p className="text-2xl text-primary mb-1" style={{ 
-            fontFamily: 'Crimson Text, serif',}}>75 km</p>
-                  <p className="text-sm text-muted-foreground" style={{ 
+            fontFamily: 'Crimson Text, serif ',}}>75 km</p>
+                  <p className="text-sm text-muted-foreground text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Approximately 1 hour drive</p>
                 </div>
               </CardContent>

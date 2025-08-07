@@ -38,7 +38,7 @@ export function DiningSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4" style={{ 
               fontFamily: 'Playfair Display, serif',}} >Dining Experience</h2>
-          <p className="text-xl max-w-3xl mx-auto text-muted-foreground" style={{ 
+          <p className="text-xl max-w-3xl mx-auto  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
             Savor exceptional cuisine in a welcoming atmosphere. Our family-friendly restaurant 
             and bar offer fresh local flavors with breathtaking ocean views.
@@ -63,9 +63,9 @@ export function DiningSection() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl mb-2">{option.name}</h3>
-                <p className="text-muted-foreground mb-4">{option.description}</p>
+                <p className=" text-gray-500 mb-4">{option.description}</p>
                 
-                <div className="flex items-center gap-2 mb-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-2 mb-4 text-sm  text-gray-500">
                   <Clock size={16} />
                   <span>{option.hours}</span>
                 </div>
@@ -95,7 +95,7 @@ export function DiningSection() {
               </div>
               <p className="text-sm mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>"Breakfast was amazing, friendly staff and chefs. They even had an event with free tickets and free food. The event was massive!!"</p>
-              <p className="text-xs text-muted-foreground">- Pretty, South Africa</p>
+              <p className="text-xs  text-gray-500">- Pretty, South Africa</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center gap-1 mb-3">
@@ -105,7 +105,7 @@ export function DiningSection() {
               </div>
               <p className="text-sm mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>"Friendly staff. Great food. Exceptional facilities."</p>
-              <p className="text-xs text-muted-foreground" style={{ 
+              <p className="text-xs  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>- Ntobeko, South Africa</p>
             </div>
           </div>

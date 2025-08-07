@@ -61,7 +61,7 @@ icon: Utensils
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4" style={{ 
               fontFamily: 'Playfair Display, serif',}} >Resort Facilities</h2>
-          <p className="text-xl max-w-3xl mx-auto text-muted-foreground" style={{ 
+          <p className="text-xl max-w-3xl mx-auto  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
             Enjoy our comprehensive range of facilities designed for comfort and convenience. 
             From beachfront access to family-friendly amenities, everything you need for a perfect stay.
@@ -84,7 +84,7 @@ icon: Utensils
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl mb-2">{experience.name}</h3>
-                <p className="text-muted-foreground">{experience.description}</p>
+                <p className=" text-gray-500">{experience.description}</p>
               </CardContent>
             </Card>
           ))}
@@ -99,29 +99,29 @@ icon: Utensils
               <div>
                 <div className="text-3xl mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>7.6</div>
-                <div className="text-sm text-muted-foreground" style={{ 
+                <div className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Overall Rating</div>
               </div>
               <div>
                 <div className="text-3xl mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>8.3</div>
-                <div className="text-sm text-muted-foreground" style={{ 
+                <div className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Staff</div>
               </div>
               <div>
                 <div className="text-3xl mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>8.4</div>
-                <div className="text-sm text-muted-foreground" style={{ 
+                <div className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Cleanliness</div>
               </div>
               <div>
                 <div className="text-3xl mb-1" style={{ 
             fontFamily: 'Crimson Text, serif',}}>9.2</div>
-                <div className="text-sm text-muted-foreground" style={{ 
+                <div className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Free WiFi</div>
               </div>
             </div>
-            <p className="text-muted-foreground mt-4" style={{ 
+            <p className=" text-gray-500 mt-4" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
               "Couples particularly like the location — rated 8.2 for a two-person trip"
             </p>

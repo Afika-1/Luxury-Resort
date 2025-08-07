@@ -40,7 +40,7 @@ export function AccommodationsSection() {
           <h2 className="text-4xl md:text-5xl mb-4 " style={{
             fontFamily: 'Playfair Display, serif',
           }}>Comfortable Accommodations</h2>
-          <p className="text-xl max-w-3xl mx-auto text-muted-foreground" style={{
+          <p className="text-xl max-w-3xl mx-auto  text-gray-500" style={{
             fontFamily: 'Crimson Text, serif',
           }}>
             All rooms feature air conditioning, private bathrooms, and balconies with stunning views.
@@ -65,7 +65,7 @@ export function AccommodationsSection() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl mb-2">{room.name}</h3>
-                <p className="text- mb-4">{room.description}</p>
+                <p className=" text-gray-500 mb-4">{room.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {room.features.map((feature) => (
                     <span key={feature} className="px-2 py-1  bg-gray-300 text-accent-foreground rounded text-sm">

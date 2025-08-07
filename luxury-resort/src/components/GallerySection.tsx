@@ -66,7 +66,7 @@ alt: "Lake activities"
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4" style={{ 
               fontFamily: 'Playfair Display, serif',}}>Gallery</h2>
-          <p className="text-xl max-w-3xl mx-auto text-muted-foreground" style={{ 
+          <p className="text-xl max-w-3xl mx-auto  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
             Discover the beauty that awaits you through our curated collection of moments and spaces.
           </p>

@@ -9,13 +9,13 @@ export function AboutSection() {
           <div>
             <h2 className="text-4xl md:text-5xl mb-6" style={{ 
               fontFamily: 'Playfair Display, serif',}}>About Luxury Resort</h2>
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed" style={{ 
+            <p className="text-lg  text-gray-500 mb-6 leading-relaxed" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
               Located on the stunning coastline of Amanzimtoti, South Africa, Luxury Resort offers 
               direct beachfront access with Umkomaas Beach just metres away. Our resort combines 
               coastal beauty with modern comfort, providing guests with an unforgettable beach holiday experience.
             </p>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed" style={{ 
+            <p className="text-lg  text-gray-500 mb-8 leading-relaxed" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
               Whether you're seeking a romantic getaway, family vacation, or peaceful retreat, 
               our attentive staff and exceptional facilities ensure every guest enjoys outstanding 
@@ -29,7 +29,7 @@ export function AboutSection() {
                 </div>
                 <h3 className="mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Beachfront</h3>
-                <p className="text-sm text-muted-foreground" style={{ 
+                <p className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                   Direct access to pristine Umkomaas Beach
                 </p>
@@ -40,7 +40,7 @@ export function AboutSection() {
                 </div>
                 <h3 className="mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Prime Location</h3>
-                <p className="text-sm text-muted-foreground" style={{ 
+                <p className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                   Amanzimtoti coastline, 75km from King Shaka Airport
                 </p>
@@ -51,7 +51,7 @@ export function AboutSection() {
                 </div>
                 <h3 className="mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Highly Rated</h3>
-                <p className="text-sm text-muted-foreground" style={{ 
+                <p className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                   7.6/10 guest rating with excellent cleanliness scores
                 </p>
@@ -61,7 +61,7 @@ export function AboutSection() {
             <div className="mt-8 p-6 bg-gray-100 not-last:rounded-lg">
               <h4 className="mb-3" style={{ 
             fontFamily: 'Crimson Text, serif',}}>What Guests Love</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground" style={{ 
+              <ul className="space-y-2 text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>
                 <li>• Walking distance to the beach</li>
                 <li>• Friendly and welcoming staff</li>
@@ -83,7 +83,7 @@ export function AboutSection() {
             fontFamily: 'Crimson Text, serif',}}>Distance to Airport</h4>
               <p className="text-3xl text-primary" style={{ 
             fontFamily: 'Crimson Text, serif',}}>75km</p>
-              <p className="text-sm text-muted-foreground" style={{ 
+              <p className="text-sm  text-gray-500" style={{ 
             fontFamily: 'Crimson Text, serif',}}>King Shaka International</p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export function AboutSection() {
             <div className="bg-card p-6 rounded-lg border">
               <h4 className="mb-2 font-medium" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Umkomaas Golf Club</h4>
-              <p className="text-muted-foreground text-sm mb-2" style={{ 
+              <p className=" text-gray-500 text-sm mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>5 km away</p>
               <p className="text-sm" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Championship golf course with stunning coastal views</p>
@@ -105,7 +105,7 @@ export function AboutSection() {
             <div className="bg-card p-6 rounded-lg border">
               <h4 className="mb-2 font-medium" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Kenneth Stainbank Nature Reserve</h4>
-              <p className="text-muted-foreground text-sm mb-2" style={{ 
+              <p className=" text-gray-500 text-sm mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>36 km away</p>
               <p className="text-sm" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Beautiful nature reserve perfect for hiking and wildlife viewing</p>
@@ -113,7 +113,7 @@ export function AboutSection() {
             <div className="bg-card p-6 rounded-lg border">
               <h4 className="mb-2 font-medium" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Local Beaches</h4>
-              <p className="text-muted-foreground text-sm mb-2" style={{ 
+              <p className=" text-gray-500 text-sm mb-2" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Walking distance</p>
               <p className="text-sm" style={{ 
             fontFamily: 'Crimson Text, serif',}}>Umgababa, Illovo, and Clansthal beaches nearby</p>
