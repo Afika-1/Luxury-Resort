@@ -59,8 +59,10 @@ icon: Utensils
     <section id="experiences" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mb-4">Resort Facilities</h2>
-          <p className="text-xl max-w-3xl mx-auto text-muted-foreground">
+          <h2 className="text-4xl md:text-5xl mb-4" style={{ 
+              fontFamily: 'Playfair Display, serif',}} >Resort Facilities</h2>
+          <p className="text-xl max-w-3xl mx-auto text-muted-foreground" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>
             Enjoy our comprehensive range of facilities designed for comfort and convenience. 
             From beachfront access to family-friendly amenities, everything you need for a perfect stay.
           </p>
@@ -91,26 +93,36 @@ icon: Utensils
         {/* Guest Rating Section */}
         <div className="mt-16 text-center ">
           <div className="bg-gray-100 rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl mb-4">Guest Reviews</h3>
+            <h3 className="text-2xl mb-4" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>Guest Reviews</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div>
-                <div className="text-3xl mb-1">7.6</div>
-                <div className="text-sm text-muted-foreground">Overall Rating</div>
+                <div className="text-3xl mb-1" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>7.6</div>
+                <div className="text-sm text-muted-foreground" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>Overall Rating</div>
               </div>
               <div>
-                <div className="text-3xl mb-1">8.3</div>
-                <div className="text-sm text-muted-foreground">Staff</div>
+                <div className="text-3xl mb-1" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>8.3</div>
+                <div className="text-sm text-muted-foreground" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>Staff</div>
               </div>
               <div>
-                <div className="text-3xl mb-1">8.4</div>
-                <div className="text-sm text-muted-foreground">Cleanliness</div>
+                <div className="text-3xl mb-1" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>8.4</div>
+                <div className="text-sm text-muted-foreground" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>Cleanliness</div>
               </div>
               <div>
-                <div className="text-3xl mb-1">9.2</div>
-                <div className="text-sm text-muted-foreground">Free WiFi</div>
+                <div className="text-3xl mb-1" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>9.2</div>
+                <div className="text-sm text-muted-foreground" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>Free WiFi</div>
               </div>
             </div>
-            <p className="text-muted-foreground mt-4">
+            <p className="text-muted-foreground mt-4" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>
               "Couples particularly like the location — rated 8.2 for a two-person trip"
             </p>
           </div>

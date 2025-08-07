@@ -73,7 +73,8 @@ export function AccommodationsSection() {
                     </span>
                   ))}
                 </div>
-                <Button className="w-full">Check Availability</Button>
+                <Button className="w-full" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>Check Availability</Button>
               </CardContent>
             </Card>
           ))}

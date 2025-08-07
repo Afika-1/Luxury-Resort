@@ -47,7 +47,8 @@ export function HeroSection() {
         >
           Experience beachfront luxury on the stunning South African coast.
           <br className="hidden md:block" />
-          <span className="block md:inline mt-2 md:mt-0">
+          <span className="block md:inline mt-2 md:mt-0" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>
             Direct access to Umkomaas Beach with world-class amenities and hospitality.
           </span>
         </p>
@@ -91,7 +92,8 @@ export function HeroSection() {
           </div>
           <span 
             className="text-xs tracking-widest opacity-80"
-            style={{ fontFamily: 'Cinzel, serif' }}
+           style={{ 
+            fontFamily: 'Crimson Text, serif',}}
           >
             SCROLL
           </span>

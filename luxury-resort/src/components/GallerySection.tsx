@@ -64,8 +64,10 @@ alt: "Lake activities"
     <section id="gallery" className="py-20  bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl mb-4">Gallery</h2>
-          <p className="text-xl max-w-3xl mx-auto text-muted-foreground">
+          <h2 className="text-4xl md:text-5xl mb-4" style={{ 
+              fontFamily: 'Playfair Display, serif',}}>Gallery</h2>
+          <p className="text-xl max-w-3xl mx-auto text-muted-foreground" style={{ 
+            fontFamily: 'Crimson Text, serif',}}>
             Discover the beauty that awaits you through our curated collection of moments and spaces.
           </p>
         </div>
