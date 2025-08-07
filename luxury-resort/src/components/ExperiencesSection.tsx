@@ -89,8 +89,8 @@ icon: Utensils
         </div>
 
         {/* Guest Rating Section */}
-        <div className="mt-16 text-center">
-          <div className="bg-accent/50 rounded-lg p-8 max-w-4xl mx-auto">
+        <div className="mt-16 text-center ">
+          <div className="bg-gray-100 rounded-lg p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl mb-4">Guest Reviews</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div>

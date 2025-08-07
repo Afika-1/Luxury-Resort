@@ -81,7 +81,7 @@ export function DiningSection() {
         </div>
 
         {/* Guest Reviews for Dining */}
-        <div className="bg-accent/30 rounded-lg p-8 max-w-4xl mx-auto">
+        <div className="bg-gray-100 rounded-lg p-8 max-w-4xl mx-auto ">
           <h3 className="text-2xl mb-6 text-center">What Guests Say About Our Food</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">

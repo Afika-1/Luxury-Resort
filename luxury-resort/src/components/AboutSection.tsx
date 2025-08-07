@@ -21,7 +21,7 @@ export function AboutSection() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                <div className="bg-gray-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Waves className="text-primary" size={24} />
                 </div>
                 <h3 className="mb-2">Beachfront</h3>
@@ -30,7 +30,7 @@ export function AboutSection() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                <div className="bg-gray-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                   <MapPin className="text-primary" size={24} />
                 </div>
                 <h3 className="mb-2">Prime Location</h3>
@@ -39,7 +39,7 @@ export function AboutSection() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                <div className="bg-gray-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Award className="text-primary" size={24} />
                 </div>
                 <h3 className="mb-2">Highly Rated</h3>
@@ -49,7 +49,7 @@ export function AboutSection() {
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-accent/30 rounded-lg">
+            <div className="mt-8 p-6 bg-gray-100 not-last:rounded-lg">
               <h4 className="mb-3">What Guests Love</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• Walking distance to the beach</li>
@@ -80,17 +80,17 @@ export function AboutSection() {
           <h3 className="text-3xl mb-8 text-center">Nearby Attractions</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-card p-6 rounded-lg border">
-              <h4 className="mb-2">Umkomaas Golf Club</h4>
+              <h4 className="mb-2 font-medium">Umkomaas Golf Club</h4>
               <p className="text-muted-foreground text-sm mb-2">5 km away</p>
               <p className="text-sm">Championship golf course with stunning coastal views</p>
             </div>
             <div className="bg-card p-6 rounded-lg border">
-              <h4 className="mb-2">Kenneth Stainbank Nature Reserve</h4>
+              <h4 className="mb-2 font-medium">Kenneth Stainbank Nature Reserve</h4>
               <p className="text-muted-foreground text-sm mb-2">36 km away</p>
               <p className="text-sm">Beautiful nature reserve perfect for hiking and wildlife viewing</p>
             </div>
             <div className="bg-card p-6 rounded-lg border">
-              <h4 className="mb-2">Local Beaches</h4>
+              <h4 className="mb-2 font-medium">Local Beaches</h4>
               <p className="text-muted-foreground text-sm mb-2">Walking distance</p>
               <p className="text-sm">Umgababa, Illovo, and Clansthal beaches nearby</p>
             </div>

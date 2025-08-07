@@ -63,8 +63,9 @@ export function Navigation() {
                   href={item.href}
                   className={`transition-colors duration-200 relative ${
                     isActive(item.href)
-                      ? 'text-primary font-medium'
-                      : 'text-foreground hover:text-primary'
+                      ? 'text-primary font-medium underline underline-offset-4 decoration-2'
+    : 'text-foreground hover:text-primary hover:underline hover:underline-offset-4 hover:decoration-1'
+
                   }`}
                 >
                   {item.name}
