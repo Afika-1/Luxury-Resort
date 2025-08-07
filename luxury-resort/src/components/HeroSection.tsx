@@ -13,7 +13,7 @@ export function HeroSection() {
           alt="Luxury beachfront resort with pristine beach access in Amanzimtoti"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/50" style={{ backdropFilter: 'blur(2px)' }}></div>
+        <div className="absolute inset-0 bg-black/50" style={{ backdropFilter: 'blur(2px)' }}> </div>
       </div>
 
       {/* Content */}

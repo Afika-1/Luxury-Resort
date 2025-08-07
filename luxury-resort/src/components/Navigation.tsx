@@ -78,14 +78,14 @@ export function Navigation() {
 
           {/* Book Now Button */}
           <div className="hidden md:block">
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button className="bg-black text-white hover:bg-primary/90">
               Book Now
             </Button>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-4">
-            <Button size="sm" className="bg-primary text-primary-foreground">
+            <Button size="sm" className="bg-black text-white">
               Book Now
             </Button>
             <button
