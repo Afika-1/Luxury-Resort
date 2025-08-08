@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
 import { Menu, X } from 'lucide-react';
+import  BookingForm  from './BookingForm';
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +41,7 @@ export function Navigation() {
     };
   }, []);
 
-  const isActive = (href: string) => {
+  const isActive = (href) => {
     const sectionId = href.replace('#', '');
     return activeSection === sectionId;
   };
@@ -79,16 +80,20 @@ export function Navigation() {
 
           {/* Book Now Button */}
           <div className="hidden md:block">
+        
             <Button className="bg-black text-white hover:bg-primary/90">
               Book Now
             </Button>
+           
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-4">
+           
             <Button size="sm" className="bg-black text-white">
               Book Now
             </Button>
+           
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-foreground"
