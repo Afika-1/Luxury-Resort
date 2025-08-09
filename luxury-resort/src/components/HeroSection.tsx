@@ -1,5 +1,6 @@
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import BookingForm from './BookingForm';
 
 export function HeroSection() {
   return (
@@ -55,6 +56,7 @@ export function HeroSection() {
 
         {/* Buttons with enhanced styling */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <BookingForm>
           <Button 
             size="lg" 
             className="bg-white text-black hover:bg-gray-100 transition-all duration-300 px-10 py-4 rounded-none border-2 border-transparent hover:border-white hover:bg-transparent hover:text-white transform hover:scale-105 shadow-2xl"
@@ -67,8 +69,8 @@ export function HeroSection() {
           >
             Book Your Stay
           </Button>
-          
-          <Button 
+          </BookingForm>
+          <BookingForm><Button 
             size="lg" 
             variant="outline" 
             className="border-2 border-white text-white hover:bg-white hover:text-black transition-all duration-300 px-10 py-4 rounded-none backdrop-blur-sm bg-white/10 transform hover:scale-105 shadow-2xl"
@@ -81,6 +83,7 @@ export function HeroSection() {
           >
             Explore Facilities
           </Button>
+          </BookingForm>
         </div>
       </div>
 
