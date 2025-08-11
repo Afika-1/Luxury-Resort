@@ -91,12 +91,12 @@ export function ExperiencesSection() {
             <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full animate-bounce"></div>
-                <div className="w-3 h-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full animate-bounce delay-100"></div>
+                <div className="w-3 h-3 bg-gradient-to-r from-yellow-500 to-pink-500 rounded-full animate-bounce delay-100"></div>
                 <div className="w-2 h-2 bg-gradient-to-r from-orange-500 to-red-500 rounded-full animate-bounce delay-200"></div>
               </div>
             </div>
             
-            <h2 className="text-6xl md:text-8xl mb-6 bg-gradient-to-r from-orange-500 to-red-500 rounded-full to-slate-800 bg-clip-text text-transparent" style={{ 
+            <h2 className="text-6xl md:text-8xl mb-6 bg-gradient-to-r from-orange-500  rounded-full to-slate-800 bg-clip-text text-transparent" style={{ 
               fontFamily: 'Playfair Display, serif',
               fontWeight: '300',
               letterSpacing: '-0.03em'
