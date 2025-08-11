@@ -922,7 +922,7 @@ export default function BookingForm({ children }: BookingFormProps = { children:
   }
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-[9999]">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-9999]">
       <div className="bg-white rounded-2xl shadow-2xl max-w-5xl w-full max-h-[90vh] overflow-hidden mx-auto my-auto">
         {/* Header */}
         <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-6">
