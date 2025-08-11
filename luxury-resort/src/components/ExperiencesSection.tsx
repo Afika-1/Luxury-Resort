@@ -96,10 +96,10 @@ export function ExperiencesSection() {
               </div>
             </div>
             
-            <h2 className="text-6xl md:text-8xl mb-6 bg-gradient-to-r from-orange-500  rounded-full to-slate-800 bg-clip-text text-transparent" style={{ 
+            <h2 className="text-5xl md:text-7xl mb-6 bg-gradient-to-r from-slate-800 via-slate-600 to-slate-800 bg-clip-text text-transparent" style={{ 
               fontFamily: 'Playfair Display, serif',
               fontWeight: '300',
-              letterSpacing: '-0.03em'
+              letterSpacing: '-0.02em'
             }}>
               Experiences & Amneties
             </h2>

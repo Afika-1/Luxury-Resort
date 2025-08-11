@@ -158,7 +158,7 @@ export function AccommodationsSection() {
               <Bed className="mx-4 text-amber-600" size={24} />
               <div className="h-px w-16 bg-gradient-to-l from-transparent to-amber-400"></div>
             </div>
-            <h2 className="text-5xl md:text-6xl mb-6 bg-gradient-to-r from-slate-800 via-slate-600 to-slate-800 bg-clip-text text-transparent" style={{ 
+            <h2 className="text-5xl md:text-7xl mb-6 bg-gradient-to-r from-slate-800 via-slate-600 to-slate-800 bg-clip-text text-transparent" style={{ 
               fontFamily: 'Playfair Display, serif',
               fontWeight: '300',
               letterSpacing: '-0.02em'
