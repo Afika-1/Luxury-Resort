@@ -100,7 +100,7 @@ export function GallerySection() {
   };
 
   return (
-    <section id="gallery" className="py-24 bg-gradient-to-br from-slate-50 via-white to-slate-100 relative overflow-hidden">
+    <section id="gallery" className="py-24 bg-gradient-to-br from-slate-200 relative overflow-hidden">
       {/* Elegant background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
