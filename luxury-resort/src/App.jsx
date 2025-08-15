@@ -12,19 +12,19 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
+
       <main>
         <HeroSection />
+        <AboutSection />
         <AccommodationsSection />
         <ExperiencesSection />
         <DiningSection />
         <GallerySection />
-        <AboutSection />
         <ContactSection />
       </main>
-      
+
       <Footer />
-      
+
       {/* Floating Book Now Button for Mobile */}
       <div className="fixed bottom-6 right-6 z-40 md:hidden">
         <button className="bg-primary text-primary-foreground px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-shadow">

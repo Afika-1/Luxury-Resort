@@ -9,10 +9,11 @@ export function Navigation() {
 
   const navItems = [
     { name: 'Home', href: '#home' },
+    { name: 'About', href: '#about' },
     { name: 'Accommodations', href: '#accommodations' },
     { name: 'Experiences', href: '#experiences' },
+    // { name: 'Amneties', href: '#amneties' },
     { name: 'Dining', href: '#dining' },
-    { name: 'About', href: '#about' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Contact', href: '#contact' }
   ];
@@ -62,12 +63,11 @@ export function Navigation() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className={`transition-colors duration-200 relative ${
-                    isActive(item.href)
+                  className={`transition-colors duration-200 relative ${isActive(item.href)
                       ? 'text-primary font-medium underline underline-offset-4 decoration-2'
-    : 'text-foreground hover:text-primary hover:underline hover:underline-offset-4 hover:decoration-1'
+                      : 'text-foreground hover:text-primary hover:underline hover:underline-offset-4 hover:decoration-1'
 
-                  }`}
+                    }`}
                 >
                   {item.name}
                   {isActive(item.href) && (
@@ -86,7 +86,7 @@ export function Navigation() {
             </Button> */}
 
             <BookingForm>
-              <Button size="sm" className="bg-primary text-primary-foreground">
+              <Button size="sm" className="bg-black text-white hover:bg-primary/90 cursor-pointer">
                 Book Now
               </Button>
             </BookingForm>
@@ -119,11 +119,10 @@ export function Navigation() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className={`block px-3 py-2 transition-colors duration-200 ${
-                    isActive(item.href)
+                  className={`block px-3 py-2 transition-colors duration-200 ${isActive(item.href)
                       ? 'text-primary font-medium bg-primary/5'
                       : 'text-foreground hover:text-primary'
-                  }`}
+                    }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
