@@ -7,6 +7,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss(),
+
   ],
+  base: ProcessingInstruction.env.VITE_BASE_PATH||"//Luxury-Resort"
   
 })
