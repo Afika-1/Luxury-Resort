@@ -9,6 +9,6 @@ export default defineConfig({
     tailwindcss(),
 
   ],
-  base: ProcessingInstruction.env.VITE_BASE_PATH||"//Luxury-Resort"
+  // base: ProcessingInstruction.env.VITE_BASE_PATH||"//Luxury-Resort"
   
 })

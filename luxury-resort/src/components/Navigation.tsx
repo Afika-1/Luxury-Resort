@@ -31,15 +31,51 @@ export function Navigation() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
+        // Find the section with the highest intersection ratio that's visible
+        let currentActive = '';
+        let maxRatio = 0;
+
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
+          const ratio = entry.intersectionRatio;
+          
+          // A section is considered active if it has any intersection and meets our criteria
+          if (entry.isIntersecting && ratio > 0.1) {
+            if (ratio > maxRatio) {
+              maxRatio = ratio;
+              currentActive = entry.target.id;
+            }
           }
         });
+
+        // If we found an active section, update it
+        if (currentActive) {
+          setActiveSection(currentActive);
+        } else {
+          // Fallback: check which section is closest to the center of the viewport
+          const sections = document.querySelectorAll('section[id]');
+          let closestSection = '';
+          let minDistance = Infinity;
+
+          sections.forEach((section) => {
+            const rect = section.getBoundingClientRect();
+            const sectionCenter = rect.top + rect.height / 2;
+            const viewportCenter = window.innerHeight / 2;
+            const distance = Math.abs(sectionCenter - viewportCenter);
+
+            if (distance < minDistance && rect.bottom > 0 && rect.top < window.innerHeight) {
+              minDistance = distance;
+              closestSection = section.id;
+            }
+          });
+
+          if (closestSection) {
+            setActiveSection(closestSection);
+          }
+        }
       },
       {
-        threshold: 0.3,
-        rootMargin: '-80px 0px -80px 0px'
+        threshold: [0, 0.1, 0.2, 0.3, 0.5, 0.7, 1.0], // Multiple thresholds for better detection
+        rootMargin: '-60px 0px -60px 0px' // Reduced margin for better detection
       }
     );
 
@@ -47,10 +83,32 @@ export function Navigation() {
     const sections = document.querySelectorAll('section[id]');
     sections.forEach((section) => observer.observe(section));
 
+    // Also add a scroll listener as a backup
+    const handleScrollBackup = () => {
+      const sections = document.querySelectorAll('section[id]');
+      let currentActive = '';
+
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        const isVisible = rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
+        
+        if (isVisible) {
+          currentActive = section.id;
+        }
+      });
+
+      if (currentActive && currentActive !== activeSection) {
+        setActiveSection(currentActive);
+      }
+    };
+
+    window.addEventListener('scroll', handleScrollBackup, { passive: true });
+
     return () => {
       sections.forEach((section) => observer.unobserve(section));
+      window.removeEventListener('scroll', handleScrollBackup);
     };
-  }, []);
+  }, [activeSection]);
 
   const isActive = (href) => {
     const sectionId = href.replace('#', '');
@@ -207,6 +265,8 @@ export function Navigation() {
           </div>
         )}
       </div>
+
+
     </nav>
   );
 }
