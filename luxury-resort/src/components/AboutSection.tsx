@@ -1,5 +1,6 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { MapPin, Waves, Award, Star, Heart, Users } from 'lucide-react';
+import aboutImg from '../assets/images/about.jpg';
 
 export function AboutSection() {
   return (
@@ -159,7 +160,8 @@ export function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-emerald-400/20 rounded-3xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
               <div className="relative bg-white/20 backdrop-blur-sm rounded-3xl p-4 border border-white/30 shadow-2xl">
                 <ImageWithFallback
-                  src="./src/assets/images/431141506.jpg"
+                  // src="./src/assets/images/about.jpg"
+                  src={aboutImg}
                   alt="Coastal Beach Resort beachfront location in Amanzimtoti"
                   className="w-full h-96 lg:h-full object-cover rounded-2xl shadow-xl"
                 />
